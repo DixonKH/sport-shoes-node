@@ -1,0 +1,20 @@
+{
+  "name": "s-shoes",
+  "version": "1.0.0",
+  "description": "This is sport-shoes project by using nodejs and expressjs",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts", 
+    "start:dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dilshod",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
